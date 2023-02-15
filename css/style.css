@@ -1,0 +1,79 @@
+/*DEBUG*/
+
+.ms_debug .ms_header {
+    background-color: red;
+}
+
+.ms_debug .ms_main {
+    background-color: bisque;
+}
+
+.ms_debug .ms_aside {
+    background-color: pink;
+}
+
+.ms_debug .ms_aside_top {
+    background-color: lightcyan;
+}
+
+.ms_debug .ms_aside_bottom {
+    background-color: lightgreen;
+}
+
+.ms_debug .ms_aside_top {
+    height: calc(100% - 50px);
+}
+
+.ms_debug .ms_aside_bottom {
+    height: 50px;
+}
+
+.ms_debug #content {
+    background-color: antiquewhite; 
+}
+
+.ms_debug .ms_students {
+    background-color: #1b72e8;
+    height: 150px;
+}
+
+.ms_debug .col-12 {
+    
+}
+
+.ms_debug .ms_box {
+    border: 2px dashed black;
+}
+
+
+/*REGOLE DI CSS*/
+.ms_header {
+    height: 70px;
+}
+
+.ms_main {
+    height: calc(100vh - 70px);
+}
+
+.ms_aside {
+    width: 70px;
+    height: 100%;
+}
+
+#content {
+    width: calc(100% - 70px);
+    overflow-y: scroll;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (min-width: 768px) {
+    .ms_aside {
+        width: 200px;
+    }
+
+    #content {
+        width: calc(100% - 200px);
+    }
+    
+}
