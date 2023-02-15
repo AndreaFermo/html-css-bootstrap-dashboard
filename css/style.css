@@ -18,11 +18,11 @@
 }
 
 .ms_debug .ms_aside_top {
-    height: calc(100% - 50px);
+    height: calc(100% - 40px);
 }
 
 .ms_debug .ms_aside_bottom {
-    height: 50px;
+    height: 40px;
 }
 
 .ms_debug #content {
@@ -66,7 +66,7 @@
 
 /*RESPONSIVE*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     .ms_aside {
         width: 150px;
     }
