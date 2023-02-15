@@ -1,8 +1,5 @@
 /*DEBUG*/
 
-.ms_debug .ms_header {
-    background-color: red;
-}
 
 .ms_debug .ms_main {
     background-color: bisque;
@@ -13,7 +10,7 @@
 }
 
 .ms_debug .ms_aside_top {
-    background-color: lightcyan;
+    background-color: black;
 }
 
 .ms_debug .ms_aside_bottom {
@@ -41,9 +38,6 @@
     
 }
 
-.ms_debug .ms_box {
-    border: 2px dashed black;
-}
 
 
 /*REGOLE DI CSS*/
@@ -65,19 +59,20 @@
     overflow-y: scroll;
 }
 
-.ms_max_width_100 {
-   
+.ms_margin_neg {
+    margin-left: -150px;
 }
+
 
 /*RESPONSIVE*/
 
 @media screen and (min-width: 768px) {
     .ms_aside {
-        width: 200px;
+        width: 150px;
     }
 
     #content {
-        width: calc(100% - 200px);
+        width: calc(100% - 150px);
     }
     
 }
