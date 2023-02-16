@@ -4,6 +4,7 @@
 :root {
     --ms_gray: #e5e5e5;
     --ms_darkblu: #051e34;
+    --ms_lightblu: #1b72e8;
     --ms_pillblu: #165bba;
 }
 
@@ -55,7 +56,7 @@
 }
 
 .ms_students {
-    background-color: #1b72e8;
+    background-color: var(--ms_lightblu);
 }
 
 
@@ -92,6 +93,9 @@
     padding: 2px 6px;
 }
 
+.offcanvas.offcanvas-end {
+    width: 100%;
+}
 
 /*RESPONSIVE*/
 
@@ -112,5 +116,12 @@
         width: calc(100% - 150px);
     }
 
+    .ms_offcanvas_width {
+        width: 800px;
+    }
+
+    .offcanvas.offcanvas-end {
+        width: 800px;
+    }
 
 }

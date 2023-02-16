@@ -60,14 +60,113 @@
                     <div class="col-12 col-md-4 col-lg-2">
                         <span>Nuovo Studente</span>
                         <button class="btn btn-outline-light ms-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="bi bi-plus-lg"></i></button>
-
                         <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
                         <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+                            <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Inserisci un nuovo studente</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
-                            <p>Try scrolling the rest of the page to see this option in action.</p>
+                            <form>
+                                <div class="row g-2">
+                                    <div class="col">
+                                        <div class="mb-3">
+                                            <label for="disabledTextInput" class="form-label">Nome</label>
+                                            <input type="text" id="disabledTextInput" class="form-control" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="mb-3">
+                                            <label for="disabledTextInput" class="form-label">Cognome</label>
+                                            <input type="text" id="disabledTextInput" class="form-control" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row g-2">
+                                    <div class="col">
+                                        <div class="mb-3">
+                                            <label for="disabledTextInput" class="form-label">Email</label>
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">@</span>
+                                                <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="mb-3">
+                                            <label for="disabledTextInput" class="form-label">Password</label>
+                                            <input type="text" id="disabledTextInput" class="form-control" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row g-2">
+                                    <div class="col">
+                                        <div class="mb-3">
+                                            <label for="disabledTextInput" class="form-label">Indirizzo Email</label>
+                                            <div class="input-group mb-3">
+                                                <span class="input-group-text" id="basic-addon1">@</span>
+                                                <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="mb-3">
+                                            <label for="disabledTextInput" class="form-label">Password</label>
+                                            <input type="text" id="disabledTextInput" class="form-control" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="disabledTextInput" class="form-label">Indirizzo</label>
+                                    <input type="text" id="disabledTextInput" class="form-control" placeholder="">
+                                </div>
+
+                                <div class="row g-2">
+                                    <div class="col-6">
+                                        <div class="mb-3">
+                                            <label for="disabledTextInput" class="form-label">Città</label>
+                                            <input type="text" id="disabledTextInput" class="form-control" placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="mb-3">
+                                            <label for="disabledTextInput" class="form-label">Stato</label>
+                                            <select class="form-select" aria-label="Default select example">
+                                                <option selected>Scegli...</option>
+                                                <option value="1">Africa</option>
+                                                <option value="2">Libia</option>
+                                                <option value="3">Cina</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="mb-3">
+                                            <label for="disabledTextInput" class="form-label">CAP</label>
+                                            <input type="text" id="disabledTextInput" class="form-control" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="formFile" class="form-label">Foto</label>
+                                    <input class="form-control" type="file" id="formFile">
+                                 </div>
+                             
+                              
+                                <div class="mb-3">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" id="FieldsetCheck">
+                                      <label class="form-check-label" for="FieldsetCheck">
+                                        Seleziona per proseguire
+                                      </label>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Salva</button>
+                                <button type="reset" class="btn btn-warning">Svuota</button>
+                                
+                            </form>
                         </div>
                         </div>
                     </div>
