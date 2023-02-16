@@ -29,6 +29,7 @@
 :root {
     --ms_gray: #e5e5e5;
     --ms_darkblu: #051e34;
+    --ms_pillblu: #165bba;
 }
 
 .ms_background_gray {
@@ -38,6 +39,12 @@
 .ms_background_darkblu {
     background-color: var(--ms_darkblu);
 }
+
+.ms_background_pillblu {
+    background-color: var(--ms_pillblu);
+}
+
+
 
 /*REGOLE DI CSS*/
 
@@ -71,6 +78,14 @@
 
 /*RESPONSIVE*/
 
+@media screen and (min-width: 768px) {
+
+    .ms_reverse {
+        flex-direction: row-reverse;
+    }
+    
+}
+
 @media screen and (min-width: 992px) {
     .ms_aside {
         width: 150px;
@@ -79,5 +94,6 @@
     #content {
         width: calc(100% - 150px);
     }
-    
+
+
 }
