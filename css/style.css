@@ -5,24 +5,13 @@
     background-color: bisque;
 }
 
-.ms_debug .ms_aside {
-    background-color: pink;
-}
 
 .ms_debug .ms_aside_top {
-    background-color: black;
+    height: calc(100% - 30px);
 }
 
 .ms_debug .ms_aside_bottom {
-    background-color: lightgreen;
-}
-
-.ms_debug .ms_aside_top {
-    height: calc(100% - 40px);
-}
-
-.ms_debug .ms_aside_bottom {
-    height: 40px;
+    height: 30px;
 }
 
 .ms_debug #content {
@@ -34,18 +23,21 @@
     height: 150px;
 }
 
-.ms_debug .col-12 {
-    
-}
+
 
 /*COLORS*/
 
 :root {
     --ms_gray: #e5e5e5;
+    --ms_darkblu: #051e34;
 }
 
 .ms_background_gray {
     background-color: var(--ms_gray);
+}
+
+.ms_background_darkblu {
+    background-color: var(--ms_darkblu);
 }
 
 /*REGOLE DI CSS*/
@@ -65,6 +57,7 @@
 .ms_aside {
     width: 70px;
     height: 100%;
+    background-image: url(../img/sidebar-bg.png) 
 }
 
 #content {
