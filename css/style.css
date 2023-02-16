@@ -38,9 +38,22 @@
     
 }
 
+/*COLORS*/
 
+:root {
+    --ms_gray: #e5e5e5;
+}
+
+.ms_background_gray {
+    background-color: var(--ms_gray);
+}
 
 /*REGOLE DI CSS*/
+
+.ms_logo_widht {
+    max-width: 50px;
+}
+
 .ms_header {
     height: 70px;
 }
