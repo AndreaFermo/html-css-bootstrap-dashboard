@@ -46,12 +46,12 @@
     <main class="ms_main d-flex">
         <aside class="ms_aside text-white ms_background_darkblu p-3">
             <div class="ms_aside_top m-auto d-flex flex-column align-items-center d-lg-block">
-                <div class="my-2"><i class="bi bi-house-door-fill"></i> <span class="d-none d-lg-inline ms-2">Home</span></div>
-                <div class="my-2"><i class="bi bi-bar-chart-fill"></i> <span class="d-none d-lg-inline ms-2">Stats</span></div>
-                <div class="my-2"><i class="bi bi-reception-4"></i> <span class="d-none d-lg-inline ms-2">Signals</span></div>
+                <div class="my-2 ms_hover_opac-white"><i class="bi bi-house-door-fill"></i> <span class="d-none d-lg-inline ms-2">Home</span></div>
+                <div class="my-2 ms_hover_opac-white"><i class="bi bi-bar-chart-fill"></i> <span class="d-none d-lg-inline ms-2">Stats</span></div>
+                <div class="my-2 ms_hover_opac-white"><i class="bi bi-reception-4"></i> <span class="d-none d-lg-inline ms-2">Signals</span></div>
             </div>
             <div class="ms_aside_bottom d-flex flex-column align-items-center d-lg-block">
-                <div><i class="bi bi-gear-fill"></i> <span class="d-none d-lg-inline ms-2">Admin</span></div>
+                <div class="ms_hover_opac-white"><i class="bi bi-gear-fill"></i> <span class="d-none d-lg-inline ms-2">Admin</span></div>
             </div>
         </aside>
         <section id="content">
@@ -59,7 +59,7 @@
                 <div class="row ms_reverse g-2">
                     <div class="col-12 col-md-4 col-lg-2">
                         <span>Nuovo Studente</span>
-                        <button class="btn btn-outline-light ms-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="bi bi-plus-lg"></i></button>
+                        <button class="btn btn-outline-light ms-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="bi bi-plus-lg ms_hover_white"></i></button>
                         <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
                         <div class="offcanvas-header">
                             <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Inserisci un nuovo studente</h5>
@@ -81,7 +81,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="row g-2">
                                     <div class="col">
                                         <div class="mb-3">
@@ -99,7 +98,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="row g-2">
                                     <div class="col">
                                         <div class="mb-3">
@@ -117,12 +115,10 @@
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="mb-3">
                                     <label for="disabledTextInput" class="form-label">Indirizzo</label>
                                     <input type="text" id="disabledTextInput" class="form-control" placeholder="">
                                 </div>
-
                                 <div class="row g-2">
                                     <div class="col-6">
                                         <div class="mb-3">
@@ -148,13 +144,10 @@
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="mb-3">
                                     <label for="formFile" class="form-label">Foto</label>
                                     <input class="form-control" type="file" id="formFile">
-                                 </div>
-                             
-                              
+                                </div>
                                 <div class="mb-3">
                                     <div class="form-check">
                                       <input class="form-check-input" type="checkbox" id="FieldsetCheck">
@@ -165,7 +158,6 @@
                                 </div>
                                 <button type="submit" class="btn btn-primary">Salva</button>
                                 <button type="reset" class="btn btn-warning">Svuota</button>
-                                
                             </form>
                         </div>
                         </div>
@@ -200,7 +192,7 @@
                                   <h4>Prossime classi</h4>
                                 </div>
                                 <div class="card-body">
-                                    <table class="table">
+                                    <table class="table table-hover">
                                         <tbody class="text-center fw-semibold">
                                             <tr>
                                                 <td class="text-start">Nome</td>
