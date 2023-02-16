@@ -79,6 +79,32 @@
     padding: 3px;
 }
 
+.ms_td_date_width {
+    width: 110px;
+}
+
+.ms_td_roi_width {
+    width: 80px;
+}
+
+.ms_td_state_width {
+    width: 80px;
+}
+
+.ms_td_action_width {
+    width: 100px;
+}
+
+
+.ms_avatar_img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.ms_tab_button_icon {
+    padding: 2px 6px;
+}
+
 
 /*RESPONSIVE*/
 
