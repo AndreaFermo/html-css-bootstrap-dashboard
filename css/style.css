@@ -1,25 +1,10 @@
 /*DEBUG*/
 
 
-.ms_debug .ms_main {
-    background-color: bisque;
-}
 
-
-.ms_debug .ms_aside_top {
-    height: calc(100% - 30px);
-}
-
-.ms_debug .ms_aside_bottom {
-    height: 30px;
-}
 
 .ms_debug #content {
     background-color: antiquewhite; 
-}
-
-.ms_debug .ms_students {
-    background-color: #1b72e8;
 }
 
 
@@ -66,10 +51,23 @@
     background-image: url(../img/sidebar-bg.png) 
 }
 
+.ms_aside_top {
+    height: calc(100% - 30px);
+}
+
+.ms_aside_bottom {
+    height: 30px;
+}
+
 #content {
     width: calc(100% - 70px);
     overflow-y: scroll;
 }
+
+.ms_students {
+    background-color: #1b72e8;
+}
+
 
 .ms_margin_neg {
     margin-left: -150px;
@@ -94,7 +92,6 @@
 .ms_td_action_width {
     width: 100px;
 }
-
 
 .ms_avatar_img {
     width: 30px;
